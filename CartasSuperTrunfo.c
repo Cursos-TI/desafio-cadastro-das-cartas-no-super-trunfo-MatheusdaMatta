@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-char UF[2]; //nome do Estado 
+char UF; //nome do Estado 
 char CartCode [3]; //indica o código da carta composto por uma letra e um número
 char Cidade [10]; // nome da cidade
 int Populacao; // total da população
@@ -26,7 +26,7 @@ int Turismo; //número de pontos turisticos
         printf("Agora digite o número de habitantes: \n");
         scanf("%d", &Populacao  );
 
-        printf("E o tamanho dete município?: \n");
+        printf("E o tamanho deste município?: \n");
         scanf("%f", &Area  );        
 
         printf("A economia vai bem? Conta o PIB pra gente!: \n");
@@ -35,15 +35,21 @@ int Turismo; //número de pontos turisticos
         printf("Ninguém é de ferro, em quantos lugares podemos turistar?: \n");
         scanf("%d", &Turismo  );
 
-            printf("Aqui está a sua carta! \n");
+        printf("Aqui está a sua carta! \n");
 
-                printf("Código da Carta: %s \n", CartCode);
-                printf("Estado: %s \n", UF);
-                printf("Município: %s \n", Cidade);
-                printf("Número de Habitantes: %d \n", Populacao);
-                printf("Área: %f \n", Area);
-                printf("PIB: %f \n", Pib);
-                printf("Pontos turistícos: %d \n", Turismo);
+        printf("Código da Carta: %s \n", CartCode);
+
+        printf("Estado: %s \n", UF);
+
+        printf("Município: %s \n", Cidade);
+
+        printf("Número de Habitantes: %d \n", Populacao);
+
+        printf("Área: %f \n", Area);
+
+        printf("PIB: %f \n", Pib);
+                
+        printf("Pontos turistícos: %d \n", Turismo);
 
     printf("Espero que tenha se divertido! Até breve!");
 
